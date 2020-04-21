@@ -1,5 +1,5 @@
 {
-  "name": "tensor_zero",
+  "name": "lab_zero",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ArtyomBagautdinov/TensorCourse/issues"
   },
-  "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme"
+  "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+}
+
+.headline__container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+h1 {
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.38px;
+}
+
