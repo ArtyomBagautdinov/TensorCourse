@@ -138,11 +138,16 @@ body{
 }
 
 .student-info__name{
+    width: 200px;
     margin-top: 10px;
+    margin-left: 10px;
     text-align: center;
     color: #191919;
     font-family: Roboto;
     font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden;
 }
 
 .student-info__university{
