@@ -1,7 +1,7 @@
 {
-  "name": "lab_zero",
+  "name": "lab_one",
   "version": "1.0.0",
-  "description": "",
+  "description": "Домашняя работа №:01",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
