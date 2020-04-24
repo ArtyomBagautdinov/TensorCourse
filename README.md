@@ -1,1 +1,2 @@
-# TensorCourse
+# TensorCour
+# Второе домашнее задание (№01) курса web разработки компании Tensor 
