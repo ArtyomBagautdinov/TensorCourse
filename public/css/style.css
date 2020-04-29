@@ -387,11 +387,6 @@ a{
     }
 }
 
-
-@media screen and (max-width:793px){
-    
-}
-
 @media screen and (max-width:340px){
     .header__headline{
         font-size: 20px;
