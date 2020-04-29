@@ -1,7 +1,7 @@
 {
   "name": "lab_one",
   "version": "1.0.0",
-  "description": "Домашняя работа №:01",
+  "description": "Домашняя работа №:02",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
