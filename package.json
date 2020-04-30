@@ -1,24 +1,14 @@
 {
-  "name": "lab_one",
+  "name": "tschool_js_01",
   "version": "1.0.0",
-  "description": "Домашняя работа №:02",
-  "main": "index.js",
+  "description": "Домашняя работа JavaScript, Часть 1",
+  "main": "homework.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArtyomBagautdinov/TensorCourse.git"
-  },
-  "author": "ArtyomBagautdinov",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ArtyomBagautdinov/TensorCourse/issues"
-  },
-  "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^25.5.2"
+  }
 }
