@@ -1,24 +1,20 @@
 {
-  "name": "lab_one",
+  "name": "lab_five",
   "version": "1.0.0",
-  "description": "Домашняя работа №:02",
+  "description": "Домашняя работа №5",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArtyomBagautdinov/TensorCourse.git"
   },
-  "author": "ArtyomBagautdinov",
+  "author": "ArtomBagautdinov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ArtyomBagautdinov/TensorCourse/issues"
   },
-  "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme"
 }
