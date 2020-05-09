@@ -173,13 +173,17 @@ class Student {
 }
 
 const objectSet = dataSet.map((currentValue)=>{
+
     const student = new Student(currentValue);
+
     return student;
 });
 
 
 objectSet.forEach((item)=>{
+
     item.appendStudentBlock();
+    
 })
 
 
