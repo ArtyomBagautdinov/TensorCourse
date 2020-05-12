@@ -3,63 +3,54 @@ const dataSet = [
         fullName : "Маша Двойная-фамилия",
         education : "УГАТУ 2 курс",
         birthDate : new Date(1999, 3, 11),
-        imagePath : "img/avatars/ava02.jpg",
-        id: 1
+        imagePath : "img/avatars/ava02.jpg"
     },
     {
         fullName : "Анна Коренина",
         education : "СурГУ 3 курс",
         birthDate : new Date(1999, 3, 10),
-        imagePath : "img/avatars/ava03.jpg",
-        id: 2
+        imagePath : "img/avatars/ava03.jpg"
     },
     {
         fullName : "Пётр Раскольников",
         education : "БГУ 4 курс",
         birthDate : new Date(1999, 3, 11),
-        imagePath : "img/avatars/ava04.jpg",
-        id: 3
+        imagePath : "img/avatars/ava04.jpg"
     },
     {
         fullName : "Анна Генриетта",
         education : "БГА 1 курс",
         birthDate : new Date(1999, 3, 12),
-        imagePath : "img/avatars/ava05.jpg",
-        id: 4
+        imagePath : "img/avatars/ava05.jpg"
     },
     {
         fullName : "Нил Гейман",
         education : "БГУ 4 курс",
         birthDate : new Date(1999, 3, 13),
-        imagePath : "img/avatars/ava06.jpg",
-        id: 5
+        imagePath : "img/avatars/ava06.jpg"
     },
     {
         fullName : "Артем Багаутдинов",
         education : "БФУ 3 курс",
         birthDate : new Date(1999, 3, 14),
-        imagePath : "img/avatars/ava10.jpg",
-        id: 6
+        imagePath : "img/avatars/ava10.jpg"
     },{
         fullName : "Тинки",
         qualification : "Senior программист",
         birthDate : new Date(1999, 3, 15),
-        imagePath : "img/avatars/ava07.png",
-        id: 7
+        imagePath : "img/avatars/ava07.png"
     },
     {
         fullName : "Винки",
         qualification : "Senior дизайнер",
         birthDate : new Date(1999, 3, 16),
-        imagePath : "img/avatars/ava08.png",
-        id: 8
+        imagePath : "img/avatars/ava08.png"
     },
     {
         fullName : "Лолли Поп",
         qualification : "Middle аналитик",
         birthDate : new Date(1999, 3, 17),
-        imagePath : "img/avatars/ava09.png",
-        id: 9
+        imagePath : "img/avatars/ava09.png"
     }
 
 ];
@@ -70,16 +61,8 @@ class Person {
         this.fullName = params.fullName;
         this.birthDate = params.birthDate;
         this.imagePath = params.imagePath;
-        this.id = params.id;
     }
 
-    get id(){
-        return this._id;
-    }
-
-    set id(value){
-        this._id = value;
-    }
     get fullName(){
         return this._fullName;
     }
@@ -109,6 +92,7 @@ class Person {
     renderModal = () => {}
 
 }
+
 
 class Student extends Person {
     constructor(params){
@@ -419,4 +403,6 @@ dataSet.forEach((currentValue)=>{
         school.addMember('teacher',currentValue);
 
 });
+
+
 
