@@ -180,18 +180,16 @@ body{
 /*-----------------------------Hero_end-------------------*/
 
 .modal-card {
+    margin-left: 35%;
     display: none;
     position: fixed;
-    top: 40%;
-    left: 0;
-    bottom: 0;
-    right: 0;
     z-index: 99999;
 }
 
 .modal-card-vis {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .modal-card__container{
@@ -299,5 +297,8 @@ body{
         align-self: flex-start;
     }
      
+    .modal-card {
+        margin-left: 10%;
+    }
     
 }
