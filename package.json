@@ -1,14 +1,22 @@
 {
-  "name": "tensorschool",
-  "version": "20.05.14",
-  "description": "Tensor School",
+  "name": "tensorcourse",
+  "version": "1.0.0",
+  "description": "\"Домашняя работа №07\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtyomBagautdinov/TensorCourse.git"
+  },
+  "author": "ArtyomBagautdinov",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtyomBagautdinov/TensorCourse/issues"
+  },
+  "homepage": "https://github.com/ArtyomBagautdinov/TensorCourse#readme",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {}
+  }
 }

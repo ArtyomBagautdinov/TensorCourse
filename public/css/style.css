@@ -180,6 +180,7 @@ body{
 /*-----------------------------Hero_end-------------------*/
 
 .modal-card {
+    margin-top: 2%;
     margin-left: 35%;
     display: none;
     position: fixed;
