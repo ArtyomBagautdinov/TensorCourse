@@ -1,7 +1,8 @@
 import {Header} from './components/header.js'
 import {Hero} from './components/hero.js'
 import {ComponentFactory} from './factory.js'
-import {Student,Teacher} from './components/person.js'
+import {Student} from './components/student.js'
+import {Teacher} from './components/teacher.js'
 import {dataSet} from './data.js'
 import {School} from './school.js'
 

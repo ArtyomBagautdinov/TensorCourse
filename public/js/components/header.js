@@ -7,8 +7,8 @@ export class Header extends Component {
         let header = document.createElement('header');
         header.setAttribute('class','header');
 
-        let header_container = document.createElement('div');
-        header_container.setAttribute('class','header__container');
+        let headerContainer = document.createElement('div');
+        headerContainer.setAttribute('class','header__container');
 
         let headlineBlock = document.createElement('div');
         headlineBlock.setAttribute('class','header__headline-block');
@@ -35,9 +35,9 @@ export class Header extends Component {
         let border = document.createElement('div');
         border.setAttribute('class','headline-block__border');
 
-        let header_description = document.createElement('div');
-        header_description.setAttribute('class','header__description');
-        header_description.innerHTML = description;
+        let headerDescription = document.createElement('div');
+        headerDescription.setAttribute('class','header__description');
+        headerDescription.innerHTML = description;
         
 
         logo.append(img);
@@ -49,10 +49,10 @@ export class Header extends Component {
         headlineBlock.append(row);
         headlineBlock.append(border);
 
-        header_container.append(headlineBlock);
-        header_container.append(header_description);
+        headerContainer.append(headlineBlock);
+        headerContainer.append(headerDescription);
 
-        header.append(header_container);
+        header.append(headerContainer);
 
         let result = document.createElement('div');
         result.append(header);

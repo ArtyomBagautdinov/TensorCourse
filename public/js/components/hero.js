@@ -8,10 +8,10 @@ export class Hero extends Component {
         let main = document.createElement('main');
         main.setAttribute('class','hero');
 
-        let div_container = document.createElement('div');
-        div_container.setAttribute('id','hero__container')
+        let divContainer = document.createElement('div');
+        divContainer.setAttribute('id','hero__container')
 
-        main.append(div_container);
+        main.append(divContainer);
 
         let result = document.createElement('div');
         result.append(main);
