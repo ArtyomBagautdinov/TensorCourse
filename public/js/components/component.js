@@ -8,7 +8,6 @@ export class Component{
         this.options = options;
         this.state = {};
         this.container = undefined;
-        this.handlers = {};
     }
 
     /**
