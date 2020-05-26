@@ -1,5 +1,9 @@
-export class Factory {
-    create = (component, options) => {
+/**
+ * Фабрика компонентов
+ */
+
+export class ComponentFactory {
+    create = (component,options) => {
         return new component(options || {});
     }
 }

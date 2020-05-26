@@ -1,3 +1,8 @@
+/**
+ * Данные из внешнего источника
+ */
+
+
 export const dataSet = [
     {
         fullName : "Маша Двойная-фамилия",
@@ -34,5 +39,23 @@ export const dataSet = [
         education : "БФУ 3 курс",
         birthDate : new Date(1999, 3, 14),
         imagePath : "img/avatars/ava10.jpg"
+    },{
+        fullName : "Тинки",
+        qualification : "Senior программист",
+        birthDate : new Date(1999, 3, 15),
+        imagePath : "img/avatars/ava07.png"
+    },
+    {
+        fullName : "Винки",
+        qualification : "Senior дизайнер",
+        birthDate : new Date(1999, 3, 16),
+        imagePath : "img/avatars/ava08.png"
+    },
+    {
+        fullName : "Лолли Поп",
+        qualification : "Middle аналитик",
+        birthDate : new Date(1999, 3, 17),
+        imagePath : "img/avatars/ava09.png"
     }
+
 ];

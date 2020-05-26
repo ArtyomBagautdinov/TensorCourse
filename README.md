@@ -1,6 +1,6 @@
-# Домашнее задание №08
+# Домашнее задание №08 Рефакторинг
 # Курса компании Tensor
 
-# При попытке выноса Person в отдельный файл с подключением всех нужны зависимостей (Action,Factory, Component)
+# 
 # Выдавало ошибку Uncaught TypeError: Cannot read property 'insertAdjacentElement' of null
-# Искал гуглил так и не понял в чём проблема, поэтому Person в файле app.js :(
+# Искал гуглил так и не понял в чём проРблема, поэтому Person в файле app.js :(
