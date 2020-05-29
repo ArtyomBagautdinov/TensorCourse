@@ -22,12 +22,7 @@ const header = factory.create(
 
 const hero = factory.create(Hero);
 
-const pagination = factory.create(
-    Pagination,
-    {
-        len : 9
-    }
-);
+const pagination = factory.create(Pagination);
 
 const loader = factory.create(Loader);
 
