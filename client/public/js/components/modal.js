@@ -27,7 +27,10 @@ export class Modal extends Component {
     
             let divBirthday = document.createElement('div');
             divBirthday.setAttribute('class','info__birthday');
-            divBirthday.innerHTML = "День рождения: " + birthDate.toLocaleDateString();
+
+            const bday = new Date(birthDate).toLocaleDateString()
+
+            divBirthday.innerHTML = "День рождения: " + bday;
     
             let divEducation = document.createElement('div');
             divEducation.setAttribute('class','info__education');

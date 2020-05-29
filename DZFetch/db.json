@@ -1,0 +1,88 @@
+{
+  "person": [
+    {
+      "id": 1,
+      "fullName": "Маша Двойная-фамилия",
+      "education": "УГАТУ 2 курс",
+      "birthDate": "1999-03-09T00:00:00.000Z",
+      "imagePath": "img/avatars/ava02.jpg"
+    },
+    {
+      "id": 2,
+      "fullName": "Анна Коренина",
+      "education": "СурГУ 3 курс",
+      "birthDate": "1999-03-10T00:00:00.000Z",
+      "imagePath": "img/avatars/ava03.jpg"
+    },
+    {
+      "id": 3,
+      "fullName": "Винки",
+      "qualification": "Senior дизайнер",
+      "birthDate": "1999-03-16T00:00:00.000Z",
+      "imagePath": "img/avatars/ava08.png"
+    },
+    {
+      "id": 4,
+      "fullName": "Пётр Раскольников",
+      "education": "БГУ 4 курс",
+      "birthDate": "1999-03-11T00:00:00.000Z",
+      "imagePath": "img/avatars/ava04.jpg"
+    },
+    {
+      "id": 5,
+      "fullName": "Анна Генриетта",
+      "education": "БГА 1 курс",
+      "birthDate": "1999-03-12T00:00:00.000Z",
+      "imagePath": "img/avatars/ava05.jpg"
+    },
+    {
+      "id": 6,
+      "fullName": "Нил Гейман",
+      "education": "БГУ 4 курс",
+      "birthDate": "1999-03-13T00:00:00.000Z",
+      "imagePath": "img/avatars/ava06.jpg"
+    },
+    {
+      "id": 7,
+      "fullName": "Артем Багаутдинов",
+      "education": "БФУ 3 курс",
+      "birthDate": "1999-03-14T00:00:00.000Z",
+      "imagePath": "img/avatars/ava10.jpg"
+    },
+    {
+      "id": 8,
+      "fullName": "Тинки",
+      "qualification": "Senior программист",
+      "birthDate": "1999-03-15T00:00:00.000Z",
+      "imagePath": "img/avatars/ava07.png"
+    },
+    {
+      "id": 9,
+      "fullName": "Маргарет Тэтчер",
+      "qualification": "Опытный премьер",
+      "birthDate": "1939-03-17T00:00:00.000Z",
+      "imagePath": "img/avatars/ava11.jpg"
+    },
+    {
+      "id": 10,
+      "fullName": "Лолли Поп",
+      "qualification": "Middle аналитик",
+      "birthDate": "1999-03-17T00:00:00.000Z",
+      "imagePath": "img/avatars/ava09.png"
+    },
+    {
+      "id": 11,
+      "fullName": "Джаред Лето",
+      "qualification": "Душа компании",
+      "birthDate": "1983-03-15T00:00:00.000Z",
+      "imagePath": "img/avatars/ava12.jpg"
+    },
+    {
+      "id": 12,
+      "fullName": "Илон Таск",
+      "qualification": "Предприниматель",
+      "birthDate": "1987-01-22",
+      "imagePath": "https://www.film.ru/sites/default/files/styles/thumb_1024x450/public/filefield_paths/rick-and-morty-elon-tusk-1197407-1280x0.jpeg"
+    }
+  ]
+}

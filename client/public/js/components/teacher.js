@@ -28,11 +28,12 @@ export class Teacher extends Person{
     }
 
     afterMount = () => {
-        this.container.addEventListener('click', (event) => this.onClick(event));        
+        const newContainer = this.container.getElementsByClassName('item-teacher__container')[0];
+        newContainer.addEventListener('click', (event) => this.onClick(event));        
     }
 
     onClick = (event) => {
-        if(document.getElementsByClassName('modal-card__container')[0] == undefined){
+        if(document.getElementsByClassName('center')[0] == undefined){
             const modal = new Modal({
                 image: this.item.imagePath,
                 name : this.item.fullName,
