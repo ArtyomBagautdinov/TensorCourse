@@ -221,7 +221,7 @@ body{
 }
 
 .inputModal-card {
-    
+    margin-top: 8%;
     position: fixed;
     z-index: 99999;
 }

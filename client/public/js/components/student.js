@@ -28,7 +28,7 @@ export class Student extends Person{
 
     afterMount = () => {
         const newContainer = this.container.getElementsByClassName('item-student__container')[0];
-        newContainer.addEventListener('click', (event) => this.onClick(event));           
+        newContainer.addEventListener('click', (event) => this.onClick(event));
     }
 
     onClick = (event) => {

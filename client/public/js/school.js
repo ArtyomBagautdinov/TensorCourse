@@ -68,5 +68,14 @@ export class School {
     clearAll = () => {
         this.members = [];
     }
+
+
+    /**
+     * Получить список обьектов всех учеников и студентов в школе 
+     */
+
+    getMembers = () => {
+        return this.members;
+    }
     
 }

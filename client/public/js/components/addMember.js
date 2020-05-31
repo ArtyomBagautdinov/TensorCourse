@@ -6,13 +6,7 @@ import {ComponentFactory} from '../factory.js'
  */
 export class AddMember extends Component {
     render = () =>{
-        /*
-        <div class="add-member">
-            <div class="add-member__container">
-                 <img src="img/other/plus.svg" width="60%" height="60%" alt="add">
-            </div>
-        </div>
-        */
+    
         let add = document.createElement('div');
         add.setAttribute('class','add-member');
 

@@ -50,7 +50,7 @@ export class Modal extends Component {
     
             let imgButton = document.createElement('img');
             imgButton.setAttribute('src','img/other/close.svg');
-            imgButton.setAttribute('alt','Close');
+            imgButton.setAttribute('alt','Student avatar');
     
             divAvatar.append(imgAvatar);
     

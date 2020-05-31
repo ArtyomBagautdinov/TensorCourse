@@ -18,7 +18,6 @@ export class Component{
          return `<div></div>`;
      }
 
-
      /**
       * помещает компонент в DOM
       * @param {DOMElement} container контейнер, в котором строится вёрстка,куда помещаем
@@ -26,6 +25,7 @@ export class Component{
       */
 
       mount = (container,position) => {
+
         this.beforeMount();
 		
         // создаем новый компонент в доме
@@ -42,7 +42,7 @@ export class Component{
         newComponent.remove();
 		
         // прехук после монтирования
-        this.afterMount()
+        this.afterMount();
       }
 
       /**
@@ -62,9 +62,6 @@ export class Component{
      */
     
     getContainer = () => {
-        if (this.container === undefined) {
-            this.container = document.getElementById(this.id);
-        }
         return this.container;
     }
 	

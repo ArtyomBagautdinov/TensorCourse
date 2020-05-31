@@ -8,6 +8,9 @@ export class DataSet {
         }
     }
 
+    getHost = () =>{
+        return this.options.host;
+    }
     /**
      * непосредственно сам запрос
      * @param {object} params example : { _page : 1, _limit : 3}
@@ -108,9 +111,11 @@ export class DataSet {
             
         ); 
     }
+
     /**
      * удалить пользователя из базы
      */
+    
     delete = (id) => {
         return this.query(
             `${this.options.object}/${id}`,

@@ -11,6 +11,9 @@ export class InputModal extends Component {
         this.isStudent = true;
     }
 
+    getIsStudent = () => {
+        return this.isStudent;
+    }
     render = () => {
             let item = document.createElement('div'); 
             

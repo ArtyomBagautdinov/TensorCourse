@@ -10,7 +10,7 @@ export class Hero extends Component {
 
         let divContainer = document.createElement('div');
         divContainer.setAttribute('id','hero__container')
-
+       
         main.append(divContainer);
 
         let result = document.createElement('div');
