@@ -1,0 +1,96 @@
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.modal-card {
+    margin-top: 15%;
+    position: fixed;
+    z-index: 99999;
+}
+
+.inputModal-card {
+    margin-top: 8%;
+    position: fixed;
+    z-index: 99999;
+}
+
+.modal-card-vis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-card__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgb(250,250,250);
+    background: linear-gradient(157deg, rgba(250,250,250,1) 0%, rgba(242,242,242,1) 100%); 
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+    box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+}
+
+
+.modal-card__avatar img{
+    height: 120px;
+    border-radius: 10px;
+    width: 110px;
+    object-fit: cover;
+ }
+ 
+
+.modal-card__info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info__name {
+    margin-top: 10px;
+    text-align: center;
+    color: #383838;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.info__birthday {
+    margin-top: 10px;
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.info__education {
+    margin-top: 10px;
+    text-align: center;
+    color: #797979;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+
+#modal-card__close-button {
+    margin-top: 20px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+#modal-card__close-button img {
+    width: 15px;
+    height: 15px;
+}

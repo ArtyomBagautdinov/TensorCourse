@@ -1,0 +1,167 @@
+
+.inputModal-card__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    background: rgb(250,250,250);
+    background: linear-gradient(157deg, rgba(250,250,250,1) 0%, rgba(242,242,242,1) 100%); 
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+    box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+}
+
+
+#inputModal-card__close-button {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#inputModal-card__close-button img {
+    width: 15px;
+    height: 15px;
+}
+
+.button-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.disclamer-row {
+    text-align: center;
+    width: 80%;
+    color: #2b2b2b;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+.name-row , .type-row, .birth-row , .qualification-row, .education-row , .image-row , .post-row, .id-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.qualification-row, .education-row {
+    margin-bottom: 10px;
+}
+
+ .input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+/*----------------Выбрать между учителем и учеником--------------------*/
+
+:root {
+    --border-size: 0.125rem;
+    --duration: 250ms;
+    --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
+    --font-family: monospace;
+    --color-primary: white;
+    --color-secondary: black;
+    --color-tertiary: dodgerblue;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --space: 1rem;
+  }
+  
+  .multi-button {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    box-shadow: var(--shadow) 4px 4px;
+  }
+  
+  .multi-button button {
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+    padding: calc(var(--space) / 1.125) var(--space) var(--space);
+    border: var(--border-size) solid black;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    font-size: 15px;
+    font-family: var(--font-family);
+    text-shadow: var(--shadow) 2px 2px;
+    transition: flex-grow var(--duration) var(--ease);
+  }
+  
+  .multi-button button + button {
+    border-left: var(--border-size) solid black;
+    margin-left: calc(var(--border-size) * -1);
+  }
+  
+  .multi-button button:hover,
+  .multi-button button:focus {
+    flex-grow: 2;
+    color: white;
+    outline: none;
+    text-shadow: none;
+    background-color: var(--color-secondary);
+  }
+  
+  .multi-button button:focus {
+    outline: var(--border-size) dashed var(--color-primary);
+    outline-offset: calc(var(--border-size) * -3);
+  }
+  
+  .multi-button:hover button:focus:not(:hover) {
+    flex-grow: 1;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    outline-color: var(--color-tertiary);
+  }
+  
+  .multi-button button:active {
+    transform: translateY(var(--border-size));
+  }
+  
+
+  .birth-column{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+  }
+
+  .birth-column p {
+      font-family: monospace;
+      font-size: 15px;
+  }
+
+
+  .post-button{
+    transition: .2s;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: monospace;
+    margin-bottom: 10px;
+  }
+
+
+.post-button:focus{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+    box-shadow: 0px 0px 8px 6px rgba(219,219,219,1);
+}

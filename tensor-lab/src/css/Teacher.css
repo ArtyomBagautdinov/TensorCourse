@@ -1,0 +1,71 @@
+#hero__item-student{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+
+.item-teacher__container{
+    transition: .2s;
+    background: rgb(0,67,199);
+    /* background: linear-gradient(40deg, rgba(0,67,199,1) 0%, rgba(47,0,101,1) 100%); */
+    border-radius:5px;
+}
+
+.item-teacher__container:hover{
+    background: rgb(0, 74, 223);
+    /* background: linear-gradient(42deg, rgba(0,67,199,1) 0%, rgba(47,0,101,1) 100%); */
+    box-shadow: 0px 7px 6px 1px rgb(179, 179, 179);
+}
+
+.item-student__image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item-student__image img{
+    margin-top: 15px;
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+}
+
+.teacher-info__name{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.teacher-info__university{
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.item-student__student-info{
+    border-radius: 10px;
+   
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: center;
+    transition: .5s;
+}
+
