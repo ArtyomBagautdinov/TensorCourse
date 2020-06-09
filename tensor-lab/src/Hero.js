@@ -33,13 +33,13 @@ class Hero extends React.Component{
                 <div className="pagination">
                 <div className="pagination__container">
                     <div className="pagination__left" onClick={this.moveBack.bind(this)}> 
-                        <img width="100%" height="100%" src={next} alt="left"/>
+                        <img width="50%" height="50%" src={next} alt="left"/>
                     </div>
                     <div id="pageNum">
                         <p id="num">{this.state.page}</p>
                     </div>
                     <div className="pagination__right" onClick={this.moveForward.bind(this)} >
-                        <img width="100%" height="100%" src={next} alt="right"/>
+                        <img width="50%" height="50%" src={next} alt="right"/>
                     </div>
                 </div>
             </div>
